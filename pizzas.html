@@ -1,63 +1,154 @@
-﻿<html>
+<html>
   <head>
     <title>Pizzas</title>
     <meta content="">
     <style>
-      body{             margin-top: 40px;
-             margin-bottom: 10px;}
-        ul{margin-left:200px;}
-        body { font-size: 1.25em; }
-        h1 { font-size: 250%; }
-        h2 { font-size: 125%; }
-        td{font-size: 125%; }
-        #of { color: crimson}
-       
-      
+    
       </style>
   </head>
   <body>
-      <div align ="center"> 
-          <h1>Pizzería Celia </h1>
-          <p>Descubre nuestras deliciosas pizzas</p>
-      <table>
-            <tr>
-                <td div align ="center"><strong>Jamón York y queso</strong></td>
-                <td div align ="center"> <strong>Barbacoa</strong></td>
-                <td div align ="center"> <strong>Hawaiana</strong></td>
-            </tr>
-          <tr>
-                <td> <img src="https://www.recetasdenana.com/wp-content/uploads/2018/02/pizza-jam%C3%B3n-y-queso.jpg" width="200" height="150" ></td>
-                <td><img src="https://oreganopizza.es/wp-content/uploads/2016/06/pizza-barbacoa-salsa-carne-pollo-mozzarella-bacon-cebolla-oregano.jpg" width="200" height="150"></td>
-                <td><img src="https://www.recetin.com/wp-content/uploads/2015/05/pizza_hawaiana.jpg" width="200" height="150"></td>
-         </tr>
-          <tr>
-          <td div align ="center"> <strong>4 quesos</strong></td>
-           <td div align ="center"> <strong>Carbonara</strong></td>
-            <td div align ="center"> <strong>Peperoni</strong></td>
-        
-              
-         <tr>
-          <td> <img src="https://babycocina.com/wp-content/uploads/2020/02/pizza-cuatro-quesos-400x400.png" width="200" height="150"></td>
-         <td> <img src="https://www.hola.com/imagenes/cocina/recetas/20200120158507/pizza-carbonara-con-huevo/0-770-845/pizza-carbonara-con-huevo-m.jpg" width="200" height="150"></td>
-         <td> <img src="https://placeralplato.com/files/2016/01/Pizza-con-pepperoni-640x480.jpg" width="200" height="150"></td>
-          </tr>
-              
-    
-      </table> <br /> 
-          
-      <h2>Precios y tamaños:</h2></div>
-      <ul>
-          <li>Pequeñas:5.99€</li>
-          <li>Medianas:7.99 €</li>
-          <li>Familiar:9,99€</li>
-          
-      </ul><br />
-      
-      <div align ="center"> 
-          <h2 id= "of" >OFERTA!</h2>
-      <p id= "of">3 medianas por tan solo 15 €</p><br />  
-      <p>Para pedidos a domicilio llama al 658965443</p></div>
+      <h1>Crea tu pizza</h1>
+      <img src ="https://www.delonghi.com/Global/recipes/multifry/pizza_fresca.jpg" width=300 height=200>
+    <form>
+ <fieldset>
+<legend> Tipo de masa</legend>
+     <p>
+      <input type="radio" name="size" id="size_1" value="medium">
+      <label for="size_1">Fina</label>
+    </p>
+    <p>
+      <input type="radio" name="size" id="size_2" value="medium">
+      <label for="size_2">Gorda</label>
+    </p>
      
-      
+    </fieldset>
+        <fieldset>
+<legend> Tipo de salsa</legend>
+     <p>
+      <input type="radio" name="size" id="size_1" value="medium">
+      <label for="size_1">Tomate</label>
+    </p>
+    <p>
+      <input type="radio" name="size" id="size_2" value="medium">
+      <label for="size_2">Barbacoa</label>
+    </p>
+            <p>
+      <input type="radio" name="size" id="size_2" value="medium">
+      <label for="size_2">Carbonara</label>
+    </p>
+     
+    </fieldset>
+        <fieldset>
+<legend> Queso</legend>
+     <p>
+      <input type="radio" name="size" id="size_1" value="medium">
+      <label for="size_1">Sí</label>
+    </p>
+    <p>
+      <input type="radio" name="size" id="size_2" value="medium">
+      <label for="size_2">No</label>
+    </p>
+     
+    </fieldset>
+  <fieldset>
+    <legend>Elige los ingredientes</legend>
+    <p>
+      <input type="radio" name="size" id="" value="medium">
+      <label for="size_1">Bacon</label>
+    </p>
+    <p>
+      <input type="radio" name="size" id="" value="medium">
+      <label for="size_2">Cebolla</label>
+    </p>
+    <p>
+      <input type="radio" name="size" id="" value="medium">
+      <label for="size_3">Aceitunas</label>
+    </p>
+      <p>
+      <input type="radio" name="size" id="" value="medium">
+      <label for="size_3">Queso</label>
+    </p>
+      <p>
+      <input type="radio" name="size" id="" value="medium">
+      <label for="size_3">Pepperoni</label>
+    </p>
+      <p>
+      <input type="radio" name="size" id="" value="medium">
+      <label for="size_3">Champiñón</label>
+    </p>
+      <p>
+      <input type="radio" name="size" id="" value="medium">
+      <label for="size_3">Pollo</label>
+    </p>
+      <p>
+      <input type="radio" name="size" id="" value="medium">
+      <label for="size_3">Tomate</label>
+    </p>
+      <p>
+      <input type="radio" name="size" id="" value="medium">
+      <label for="size_3">Pimiento</label>
+    </p>
+      <p>
+      <input type="radio" name="size" id="" value="medium">
+      <label for="size_3">Jamón</label>
+    </p>
+  </fieldset>
+        <fieldset>
+<legend> Tamaño</legend>
+     <p>
+      <input type="radio" name="size" id="size_1" value="medium">
+      <label for="size_1">Pequeña</label>
+    </p>
+    <p>
+      <input type="radio" name="size" id="size_2" value="medium">
+      <label for="size_2">Mediana</label>
+    </p>
+            <p>
+      <input type="radio" name="size" id="size_2" value="medium">
+      <label for="size_2">Familiar</label>
+    </p>
+     
+    </fieldset>
+         <fieldset>
+    <legend>Nombre completo</legend>
+    <p>
+      <label for="nombre"Nombre completo></label>
+      <input type="text" name="nombre" id="nombre" value="" placeholder="Nombre completo...">
+    </p>
+  </fieldset>
+                 <fieldset>
+    <legend>Datos de cuenta</legend>
+    <p>
+      <label for="number">Número de tarjeta</label>
+      <input type="number" name="numero" id="numero" value="" placeholder="0123...">
+    </p>
+                     <p>
+      <label>Mes de caducidad</label>
+    <input type="month" name="mes" id="mes" value="" placeholder="00">
+    </p>
+                       <p>
+      <label for="number">Código de seguridad</label>
+      <input type="number" name="codigo" id="codigo" value="" placeholder="0123...">
+    </p>
+                       
+  </fieldset>
+        <fieldset> 
+            
+            <legend>Datos de entrega</legend>
+            <p>
+            <label for="dirección">Dirección completa</label>
+            <textarea rows="10" cols="50">Esto es el contenido</textarea>
+                <label for="observaciones">Observaciones</label>
+            <textarea rows="10" cols="50">Esto es el contenido</textarea>
+                </p>
+        
+            
+        </fieldset>
+  <fieldset>
+    <legend>Finalizar</legend>
+    <input type="submit" name="enviar" value="Reset">
+       <input type="submit" name="enviar" value="Enviar">
+  </fieldset>
+</form>
     </body>
 </html>
